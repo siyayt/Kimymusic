@@ -220,7 +220,7 @@ class Thumbnail:
         )
 
         # --- 7. TOP RIGHT WATERMARK ---
-        watermark = "Vampire Music"
+        watermark = "Nysa Music"
         wb = draw.textbbox((0, 0), watermark, font=font_brand)
         ww = wb[2] - wb[0]
         draw.text((W - ww - 30, 22), watermark, fill=(255, 255, 255, 220), font=font_brand)
